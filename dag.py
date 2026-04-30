@@ -10,7 +10,7 @@ BUCKET = "nani2"
 SOURCE_FILE = "mk.csv"
 
 default_args = {
-    "start_date"
+    "start_date"(2026)
 }
 with DAG(
     dag_id="gcs_to_bq_schedule",
